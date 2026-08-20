@@ -4,12 +4,6 @@ on:
   workflow_dispatch:      # manual "Run workflow" button
   push:
     branches: [main]
-    paths:
-      - "src/**"
-      - "App.tsx"
-      - "app.json"
-      - "android/**"
-      - ".github/workflows/build-android.yml"
 
 jobs:
   build:
