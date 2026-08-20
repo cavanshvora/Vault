@@ -22,7 +22,7 @@
     "@noble/ciphers": "^1.0.0",
     "fflate": "^0.8.2",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "0.76.9"    
   },
   "devDependencies": {
     "typescript": "^5.4.0",
