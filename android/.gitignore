@@ -1,0 +1,20 @@
+# Signing secrets — never commit these; GitHub Actions writes them at build time
+app/keystore.properties
+app/release.keystore
+
+# OSX
+#
+.DS_Store
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# Bundle artifacts
+*.jsbundle

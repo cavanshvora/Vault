@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "VAULT",
+    "slug": "vault-mobile",
+    "scheme": "vaultapp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.vanshvora.vault",
+      "permissions": []
+    },
+    "plugins": [
+      [
+        "expo-sqlite"
+      ]
+    ]
+  }
+}
